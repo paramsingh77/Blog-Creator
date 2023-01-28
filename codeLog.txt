@@ -1,0 +1,4 @@
+1. Finding the number of days  elapsed between the 1-01-0001- and current date.
+2. Finding the number of days elapsed between the 1-01-0001 and the date of blog published.
+3. Find the difference of both of them.
+4.  
