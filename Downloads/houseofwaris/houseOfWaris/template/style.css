@@ -1,0 +1,122 @@
+ html{
+     font-size: 62.5%;
+     box-sizing: border-box;  
+ }
+
+ body{
+     margin: 0;
+     height: 100vh;
+     font-size: 1.6rem;/*16px*/
+     font-family:optima;
+ }
+
+ /* layout */
+
+ .grid-container{
+     display: grid;
+     grid-template-areas:
+     'header'
+     'main'
+     'footer';
+     grid-template-columns:1fr;
+     grid-template-rows: 5rem 1fr 5rem;
+     height:100%;
+ }
+ /*house of param , sign in and loved items desinging */
+ header{
+     grid-area: header ;
+     background-color:black;
+     
+ }
+/*product list*/
+main{
+        grid-area:  main;
+        padding: 1 rem;
+
+ }
+ /*copy rights reserved*/
+ footer{
+     grid-area: footer;
+     background-color:black;
+     color:#ffffff;
+     margin-bottom: 0%;
+    }
+h2{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+   margin-left: 60px;
+   margin-right: 10px;
+   margin-top: 0px;
+   font-style:helvetica;
+   color: black;
+}
+
+
+ .row{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items:center ;
+ }
+/*removing underlines*/
+ a{
+     text-decoration: none;
+ }
+
+ /*hoversing designs*/
+ a:hover{
+     color:orange;
+ }
+
+ header a{
+     color: #ffffff;
+     padding: 1rem;
+ }
+ /*brand logo house of param*/
+ a.brand{
+     color: orange;
+     font-size: 3rem;
+     font-weight: bold;
+}
+img{
+    border-radius: 0.5rem;
+}
+ 
+img{
+    max-width:  29rem;
+    width: 100%;
+}
+
+.card{
+    border: 0.1rem #c0c0c0;
+    background-color:white;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    border-radius: 50px;
+    
+
+}
+.card-body>*{
+
+    padding: 0px;
+
+}
+.price{
+    
+    font-size: 1.6rem;
+    font-style: oblique;
+    padding: 1rem 0;
+   margin-left: 120px;
+   margin-right: 10px;
+   margin-top: 0.5px;
+   font-weight: bold;
+
+}
+.rating span{
+    color: black;
+    margin: 0pc;
+    margin-top: orem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
